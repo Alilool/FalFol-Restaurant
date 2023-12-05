@@ -48,7 +48,7 @@ function end_month() {
         document.getElementById("falafelSells").innerHTML = "Falafel sells: " + falafel;
         document.getElementById("fulSells").innerHTML = "Ful sells: " + ful;
         document.getElementById("customers").innerHTML = "Customers: " + customer;
-        document.getElementById("Winning").innerHTML = "Winning: " + fullWinning + " LE";
+        document.getElementById("Winning").innerHTML = "Sales: " + fullWinning + " LE";
     }
 }
 
