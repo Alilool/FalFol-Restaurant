@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falfol Restaurant</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="results">
+        <h2 id="falafelSells">Falafel sells : 0</h2>
+        <h2 id="fulSells">Ful sells : 0</h2>
+        <h2 id="customers">Customers : 0</h2>
+        <h2 id="Winning">Winning : 0 LE</h2>
+        <a href="./index.html">
+            <button>Back to work</button>
+        </a>
+    </div>
+
+    <div id="Starting">
+        <h1>FalFol Restaurant</h1>
+        <div id="falafelStarting">
+            <h3>FalaFeL Prize :</h3>
+            <input id="falafelPrize" type="text">
+        </div>
+        <div id="fulStarting">
+            <h3>FuL Prize :</h3>
+            <input id="fulPrize"  type="text">
+        </div>
+        <button onclick="startWorking()">Start working</button>
+    </div>
+    <div id="hide">
+        <h1>FalFol Restaurant</h1>
+        <h3 id="days">Day : 1</h3>
+        <div class="falafel">
+            <h3>FalaFeL :</h3>
+            <input id="falafelInput" type="text">
+        </div>
+        <div class="ful">
+            <h3>FuL :</h3>
+            <input id="fulInput" type="text">
+        </div>
+        <div class="buttons">
+            <button onclick="submit()">Submit</button>
+            <button onclick="end_day()">End Day</button>
+            <br>
+            <button onclick="end_month()">End Month</button>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
