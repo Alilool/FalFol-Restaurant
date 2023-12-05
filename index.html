@@ -9,29 +9,39 @@
 </head>
 
 <body>
-    <h1>FalFol Resturant</h1>
-    <h3 id="days">Day : 1</h3>
-    <div class="falafel">
-        <h3>FalaFeL :</h3>
-        <input id="falafel_input" type="text">
-    </div>
-    <div class="ful">
-        <h3>FuL :</h3>
-        <input id="ful_input" type="text">
-    </div>
-    <div class="buttons">
-        <button onclick="submit()">Submit</button>
-        <button onclick="end_day()">End Day</button>
-        <br>
-        <a href="./this month.html">
-            <button onclick="end_month()">End Month</button>
+    <div id="results">
+        <h2 id="falafelSells">Falafel sells : 0</h2>
+        <h2 id="fulSells">Ful sells : 0</h2>
+        <h2 id="customers">Customers : 0</h2>
+        <a href="./index.html">
+            <button>Back to work</button>
         </a>
-        
     </div>
+
+    <div id="hide">
+        <h1>FalFol Resturant</h1>
+        <h3 id="days">Day : 1</h3>
+        <div class="falafel">
+            <h3>FalaFeL :</h3>
+            <input id="falafelInput" type="text">
+        </div>
+        <div class="ful">
+            <h3>FuL :</h3>
+            <input id="fulInput" type="text">
+        </div>
+        <div class="buttons">
+            <button onclick="submit()">Submit</button>
+            <button onclick="end_day()">End Day</button>
+            <br>
+            <button onclick="end_month()">End Month</button>
+        </div>
+    </div>
+
 
 
 
 
     <script src="./script.js"></script>
 </body>
+
 </html>

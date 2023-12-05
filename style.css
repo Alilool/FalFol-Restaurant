@@ -127,11 +127,15 @@ button:hover {
     margin-top: 10vh;
 }
 
-#falafel-sells{
+#falafelSells{
     margin: 60px;
     margin-top: 30vh;
 }
 
-#ful-sells{
+#fulSells{
     margin: 60px;
+}
+
+#results {
+    display: none;
 }
