@@ -41,8 +41,8 @@ function end_day(){
         days++;
     }
     document.getElementById("days").innerHTML = "Day : " + days;
-    document.getElementById("ful_input").value = "";
-    document.getElementById("falafel_input").value = "";
+    document.getElementById("fulInput").value = "";
+    document.getElementById("falafelInput").value = "";
 }
 
 
