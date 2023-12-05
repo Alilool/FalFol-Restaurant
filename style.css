@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+    background-color: rgb(143, 49, 49);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+h1 {
+    border: solid 4px rgb(177, 100, 100);
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    margin-top: 10vh;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(187, 65, 65);
+}
+
+.falafel,
+.ful {
+    display: flex;
+    margin-top: 5vh;
+    justify-content: center;
+}
+
+.ful {
+    margin-top: 2vh;
+}
+
+
+body {
+    background-color: rgb(143, 49, 49);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+h1 {
+    border: solid 4px rgb(177, 100, 100);
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    margin-top: 10vh;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(187, 65, 65);
+}
+
+.falafel,
+.ful {
+    display: flex;
+    margin-top: 5vh;
+    justify-content: center;
+}
+
+.ful {
+    margin-top: 2vh;
+}
+
+input {
+    height: 20px;
+    margin: 20px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+button {
+    background-color: #FD8E4A;
+    border: solid #f0ebbb 3px;
+    color: white;
+    font-size: 17px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    font-family: 'poppins', sans-serif;
+}
+
+button:hover {
+    background-color: #de7f44;
+    cursor: pointer;
+}
+
+#days {
+    margin-top: 10vh;
+}
+
+input {
+    height: 20px;
+    margin: 20px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+button {
+    background-color: #FD8E4A;
+    border: solid #f0ebbb 3px;
+    color: white;
+    font-size: 17px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    font-family: 'poppins', sans-serif;
+}
+
+button:hover {
+    background-color: #de7f44;
+    cursor: pointer;
+}
+
+#days {
+    margin-top: 10vh;
+}
+
+#falafelSells{
+    margin: 60px;
+    margin-top: 30vh;
+}
+
+#fulSells{
+    margin: 60px;
+}
+
+#results {
+    display: none;
+}
+
+#fulStarting , #falafelStarting{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    margin-top: 5vh;
+}
+
+#hide {
+    display: none;
+}
