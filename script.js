@@ -57,7 +57,7 @@ function end_day() {
     } else {
         days++;
     }
-    document.getElementById("days").innerHTML = "Day: " + days;
+    document.getElementById("days").innerHTML = "Day : " + days;
     document.getElementById("fulInput").value = "";
     document.getElementById("falafelInput").value = "";
 }
