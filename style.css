@@ -50,12 +50,6 @@ h1 {
     background-color: rgb(187, 65, 65);
 }
 
-.falafel,
-.ful {
-    display: flex;
-    margin-top: 5vh;
-    justify-content: center;
-}
 
 .ful {
     margin-top: 2vh;
@@ -102,37 +96,19 @@ input {
     text-align: center;
 }
 
-.buttons {
-    text-align: center;
-    margin-top: 5vh;
-}
 
-button {
-    background-color: #FD8E4A;
-    border: solid #f0ebbb 3px;
-    color: white;
-    font-size: 17px;
-    border-radius: 20px;
-    padding: 10px 20px;
-    margin: 10px;
-    font-family: 'poppins', sans-serif;
-}
 
-button:hover {
-    background-color: #de7f44;
-    cursor: pointer;
-}
-
-#days {
-    margin-top: 10vh;
-}
 
 #falafelSells{
     margin: 60px;
-    margin-top: 30vh;
+    margin-top: 20vh;
 }
 
 #fulSells{
+    margin: 60px;
+}
+
+#Winning{
     margin: 60px;
 }
 
