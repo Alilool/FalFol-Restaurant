@@ -46,8 +46,8 @@ function submit() {
     This_customer.style.display = "block";
     hide.style.display = "none";
 
-    document.getElementById("This_customer_falafel").innerHTML = "Falafel prize : " + This_customer_falafel + " LE";
-    document.getElementById("This_customer_ful").innerHTML = "Ful prize : " + This_customer_ful + " LE";
+    document.getElementById("This_customer_falafel").innerHTML = "Falafel price : " + This_customer_falafel + " LE";
+    document.getElementById("This_customer_ful").innerHTML = "Ful price : " + This_customer_ful + " LE";
     document.getElementById("This_customer_total").innerHTML = "Total : " + This_customer_total + " LE";
 
 
@@ -57,24 +57,20 @@ function submit() {
 }
 
 
-function new_customer(){
+function new_customer() {
     This_customer.style.display = "none";
     hide.style.display = "block";
 }
 
 function end_month() {
-    if (days < 15) {
-        alert("Can't end month before day 15");
-    } else {
-        if (hide) {
-            hide.style.display = "none";
-            results.style.display = "block";
-        }
-        document.getElementById("falafelSells").innerHTML = "Falafel sells : " + falafel;
-        document.getElementById("fulSells").innerHTML = "Ful sells : " + ful;
-        document.getElementById("customers").innerHTML = "Customers : " + customer;
-        document.getElementById("Winning").innerHTML = "Sales : " + fullWinning + " LE";
+    if (hide) {
+        hide.style.display = "none";
+        results.style.display = "block";
     }
+    document.getElementById("falafelSells").innerHTML = "Falafel sells : " + falafel;
+    document.getElementById("fulSells").innerHTML = "Ful sells : " + ful;
+    document.getElementById("customers").innerHTML = "Customers : " + customer;
+    document.getElementById("Winning").innerHTML = "Sales : " + fullWinning + " LE";
 }
 
 function end_day() {
